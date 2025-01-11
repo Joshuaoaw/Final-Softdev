@@ -1,0 +1,263 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles1.css">
+        <link rel="icon" type="image/x-icon" href="newspotify.ico">
+        <title>JOSHUAPIFY</title>
+    </head>
+    <body>
+        <div class="background"></div>
+        <div class="body">
+            <header>
+                <nav class="navbar">
+                    <div class="logo">
+                        <img src="Mp3.png" width="75px" height="50px">
+                    </div>
+                    <ul class="nav-links">
+                        <li><a style="text-decoration: none;" href="#favorite-section">FAVORITES</a></li>
+                        <li><a style="text-decoration: none;" href="#soundtrack-section">SOUNDTRACK</a></li>
+                        <li><a style="text-decoration: none;" href="#hypesongs-section">HYPE SONGS</a></li>
+                        <li><a style="text-decoration: none;" href="#forsleep-section">FOR SLEEP</a></li>
+                    </ul>
+                    <div class="nav-actions">
+                        <input type="text" class="search-bar" placeholder="Search..">
+                        <input type="button" class="button" value="SIGN UP" onclick="location.href='signup.html'">
+                        <a href="#" class="cart">🛒</a>
+                    </div>
+                </nav>
+                <div class="CATALOGUE">
+                    <h2>CATALOGUE</h2>
+                </div>
+                <br>
+                <ul class="secondnav">
+                    <li><a style="text-decoration: none;" href="">ALBUMS</a></li>
+                    <li><a style="text-decoration: none;" href="">ARTIST</a></li>
+                    <li><a style="text-decoration: none;" href="">TRACKS</a></li>
+                </ul>
+                <br>
+                <div id="favorite-section" class="h3">
+                    <h3>HOLLYWOOD SONGS</h3>
+                </div>
+                <br><br>
+                <div class="contents">
+                    <div class="content1" onclick="playSong('audio-summertimesadness')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>Lana Del Rey</b></p>
+                        <p style="color: rgb(75, 75, 36);">Summertime Sadness</p>
+                    </div>
+                    <div class="content2" onclick="playSong('audio-always')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>Daniel Caesar</b></p>
+                        <p style="color: rgb(75, 75, 36);">Always</p>
+                    </div>
+                    <div class="content3" onclick="playSong('audio-ftft')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>The Script</b></p>
+                        <p style="color: rgb(75, 75, 36);">For The First Time</p>
+                    </div>
+                    <div class="content4" onclick="playSong('audio-tmwcbm')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>The Script</b></p>
+                        <p style="color: rgb(75, 75, 36);">The Man Who Can't Be Moved</p>
+                    </div>
+                    <div class="content5" onclick="playSong('audio-msf')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>Creed</b></p>
+                        <p style="color: rgb(75, 75, 36);">My Sacrifice</p>
+                    </div>
+                    <div class="content6" onclick="playSong('audio-olb')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>Creed</b></p>
+                        <p style="color: rgb(75, 75, 36);">One Last Breath</p>
+                    </div>
+                </div>
+                <br><br><br><br>
+                <div id="forsleep-section" class="opmh">
+                    <h2>OPM</h2>
+                </div>
+                <div id="forsleep-section" class="contents2">
+                    <div class="opm1" onclick="playSong('audio-ikawlang')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>NOBITA</b></p>
+                        <p style="color: rgb(75, 75, 36);">Ikaw Lang</p>
+                    </div>
+                    <div class="opm2" onclick="playSong('audio-withasmile')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>ERASERHEADS</b></p>
+                        <p style="color: rgb(75, 75, 36);">With A Smile</p>
+                    </div>
+                    <div class="opm3" onclick="playSong('audio-mundo')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>IV OF SPADES</b></p>
+                        <p style="color: rgb(75, 75, 36);">Mundo</p>
+                    </div>
+                    <div class="opm4" onclick="playSong('audio-kathangisip')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>Ben&Ben</b></p>
+                        <p style="color: rgb(75, 75, 36);">Kathang-Isip</p>
+                    </div>
+                    <div class="opm5" onclick="playSong('audio-whenimetyou')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>Apo Hiking Society</b></p>
+                        <p style="color: rgb(75, 75, 36);">When I Met You</p>
+                    </div>
+                    <div class="opm6" onclick="playSong('audio-heavenknows')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>Orange & Lemons</b></p>
+                        <p style="color: rgb(75, 75, 36);">Heaven Knows</p>
+                    </div>
+                </div>
+                <br><br><br><br>
+                <div id="hypesongs-section" class="bisakol">
+                    <h2>BISAKOL ROCK</h2>
+                </div>
+                <div class="contents3">
+                    <div class="bis1" onclick="playSong('audio-aggressiveaudio')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>Liar Evil</b></p>
+                        <p style="color: rgb(75, 75, 36);">Aggressive Audio</p>
+                    </div>
+                    <div class="bis2" onclick="playSong('audio-gifingers')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>KANTIN DUDG</b></p>
+                        <p style="color: rgb(75, 75, 36);">Gi-Fingers</p>
+                    </div>
+                    <div class="bis3" onclick="playSong('audio-suroysuroy')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>MISSING FELIMON</b></p>
+                        <p style="color: rgb(75, 75, 36);">Suroy-Suroy</p>
+                    </div>
+                    <div class="bis4" onclick="playSong('audio-gugmanggeatay')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>THE AMBASSADORS</b></p>
+                        <p style="color: rgb(75, 75, 36);">Gugmang Geatay</p>
+                    </div>
+                    <div class="bis5" onclick="playSong('audio-sinesine')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>MISSING FILEMON</b></p>
+                        <p style="color: rgb(75, 75, 36);">Sine-Sine</p>
+                    </div>
+                    <div class="bis6" onclick="playSong('audio-sabot')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>PHYLUM</b></p>
+                        <p style="color: rgb(75, 75, 36);">Sabot-Sabot</p>
+                    </div>
+                </div>
+                <br><br><br><br>
+                <div id="soundtrack-section" class="soundtrack">
+                    <h2>SOUNDTRACKS</h2>
+                </div>
+                <div class="contents4">
+                    <div class="st1" onclick="playSong('audio-likeaprayer')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>Madonna (Deadpool & Wolverine)</b></p>
+                        <p style="color: rgb(75, 75, 36);">Like A Prayer</p>
+                    </div>
+                    <div class="st2" onclick="playSong('audio-takemybreathaway')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>Berlin (Top Gun)</b></p>
+                        <p style="color: rgb(75, 75, 36);">Take My Breath Away</p>
+                    </div>
+                    <div class="st3" onclick="playSong('audio-shallow')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>Lady Gaga & Bradley Cooper (A Star is Born)</b></p>
+                        <p style="color: rgb(75, 75, 36);">Shallow</p>
+                    </div>
+                    <div class="st4" onclick="playSong('audio-eyeofthetiger')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>Survivor (Rocky III)</b></p>
+                        <p style="color: rgb(75, 75, 36);">Eye of the Tiger</p>
+                    </div>
+                    <div class="st5" onclick="playSong('audio-myheartwillgoon')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>Celine Dion (Titanic)</b></p>
+                        <p style="color: rgb(75, 75, 36);">My Heart Will Go On</p>
+                    </div>
+                    <div class="st6" onclick="playSong('audio-theladyinred')">
+                        <br><br><br><br><br><br><br><br>
+                        <p><b>Chris De Burgh (Deadpool & Wolverine)</b></p>
+                        <p style="color: rgb(75, 75, 36);">The Lady In Red</p>
+                    </div>
+                </div>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <div class="play-button" id="playButton">
+                    <i class="fas fa-play"></i> 
+                  </div>
+                  
+            </header>
+        </div>
+        <audio id="audio-summertimesadness" src="Lana Del Rey - Summertime Sadness (Official Music Video).mp3"></audio>
+        <audio id="audio-always" src="Daniel Caesar - Always (Official Audio).mp3"></audio>
+        <audio id="audio-ftft" src="The Script - For The First Time (Official Video) (HD Version).mp3"></audio>
+        <audio id="audio-tmwcbm" src="The Script - The Man Who Cant Be Moved (Official Video).mp3"></audio>
+        <audio id="audio-msf" src="Creed - My Sacrifice.mp3"></audio>
+        <audio id="audio-olb" src="Creed - One Last Breath (Official HD Music Video).mp3"></audio>
+        <audio id="audio-ikawlang" src="NOBITA - IKAW LANG  Official Lyric Video.mp3"></audio>
+        <audio id="audio-withasmile" src="With A Smile.mp3"></audio>
+        <audio id="audio-mundo" src="Mundo.mp3"></audio>
+        <audio id="audio-kathangisip" src="Kathang Isip.mp3"></audio>
+        <audio id="audio-whenimetyou" src="When I Met You.mp3"></audio>
+        <audio id="audio-heavenknows" src="When I Met You.mp3"></audio>
+        <audio id="audio-aggressiveaudio" src="GI-FINGERS - Kantin Dudg (Lyric Video) OPM, Bisaya.mp3"></audio>
+        <audio id="audio-gifingers" src="gifingers.mp3"></audio>
+        <audio id="audio-suroysuroy" src="Missing Filemon   Suroy suroy.mp3"></audio>
+        <audio id="audio-gugmanggeatay" src="Gugmang Giatay.mp3"></audio>
+        <audio id="audio-sinesine" src="Missing Filemon   Sine sine.mp3"></audio>
+        <audio id="audio-sabot" src="Sabot Sabot.mp3"></audio>
+        <audio id="audio-likeaprayer" src="Madonna - Like A Prayer (Choir Version) [Vinyl Visualizer].mp3"></audio>
+        <audio id="audio-takemybreathaway" src="Berlin - Take My Breath Away (Official Video - Top Gun).mp3"></audio>
+        <audio id="audio-shallow" src="Lady Gaga, Bradley Cooper - Shallow (from A Star Is Born) (Official Music Video).mp3"></audio>
+        <audio id="audio-eyeofthetiger" src="Survivor - Eye Of The Tiger (Official HD Video).mp3.crdownload"></audio>
+        <audio id="audio-myheartwillgoon" src="Titanic  My Heart Will Go On  Celine Dion.mp3"></audio>
+        <audio id="audio-theladyinred" src="Chris De Burgh - Lady In Red (Official Video) (1).mp3"></audio>
+    
+        <script>
+            let currentAudio = null;
+            function playSong(audioId) {
+                if (currentAudio && currentAudio.id !== audioId) {
+                    currentAudio.pause();
+                    currentAudio.currentTime = 0;
+                }
+                const audio = document.getElementById(audioId);
+                if (audio.paused) {
+                    audio.play();
+                    currentAudio = audio;
+                } else {
+                    audio.pause();
+                }
+                updatePlayerBar(audioId);
+            }
+            function updatePlayerBar(audioId) {
+                const audio = document.getElementById(audioId);
+                const playerBar = document.getElementById('player-bar');
+                playerBar.innerHTML = `
+                    <div>
+                        <span>${audioId.replace('audio-', '').replace(/-/g, ' ')}</span>
+                        <button onclick="togglePlayPause('${audioId}')">
+                            ${audio.paused ? 'Play' : 'Pause'}
+                        </button>
+                        <input type="range" min="0" max="${audio.duration}" value="${audio.currentTime}" step="1" 
+                            oninput="seekAudio('${audioId}', this.value)">
+                        <button onclick="audio.volume = Math.max(0, audio.volume - 0.1)">-</button>
+                        <button onclick="audio.volume = Math.min(1, audio.volume + 0.1)">+</button>
+                    </div>
+                `;
+                audio.ontimeupdate = () => {
+                    playerBar.querySelector('input[type="range"]').value = audio.currentTime;
+                };
+            }
+            function togglePlayPause(audioId) {
+                const audio = document.getElementById(audioId);
+                audio.paused ? audio.play() : audio.pause();
+            }
+            function seekAudio(audioId, time) {
+                const audio = document.getElementById(audioId);
+                audio.currentTime = time;
+            }
+            
+        </script>
+       
+    </body>
+    </html>
