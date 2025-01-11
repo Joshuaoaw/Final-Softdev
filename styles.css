@@ -1,0 +1,137 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.8;
+    background: linear-gradient(to right, #f4f4f4, #ffefba);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(45deg, #f9a602, #f15b2a);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.5s ease;
+}
+
+header:hover {
+    background: linear-gradient(45deg, #f15b2a, #f9a602);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+nav {
+    background: #f9a602;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffdd99;
+    transform: scale(1.1);
+}
+
+main {
+    margin: 20px;
+    max-width: 1100px; 
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+#home {
+    padding: 20px;
+}
+
+#home img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+#home img:hover {
+    transform: scale(1.05);
+}
+
+#gallery {
+    padding: 20px;
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+#gallery h2 {
+    font-size: 2rem;
+    color: #004080;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.gallery-item {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.gallery-item img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 15px; 
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+.gallery-item .description {
+    padding: 10px;
+    background-color: #f9a602;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 250px; 
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.gallery-item:hover .description {
+    opacity: 1;
+    transform: translateY(0);
+}

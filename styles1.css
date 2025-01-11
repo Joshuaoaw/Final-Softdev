@@ -1,0 +1,364 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#64efec,#63e1ef,#64e8ed,#7ec0f2,#87affa,#be90fd,
+  #c2a9fc, #d8dbbe,#cf9df6,#eafe67);
+  filter: blur(2px); 
+  z-index: -1; 
+}
+
+
+.body {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 2; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+.button{
+border-radius: 5px;
+border: 1px;
+background-color: #ec1111;
+height: 50px;
+width: 100px;
+color: white;
+}
+.search-bar{
+
+width: 100px;
+margin: 0 30px;
+}
+.cart{
+  width: 50px;
+  height: 100px;
+  margin: 0 25px;
+}
+.CATALOGUE{
+  margin: 0 50px;
+  border-bottom: 1px dashed;
+}
+.h3{
+
+  margin: 0px 50px;
+}
+
+.secondnav{
+  margin: 0 10px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  
+
+}
+.contents{
+
+display: flex;
+
+
+}
+.content1{
+  background-image: url(summertimesadness.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid;
+  width: 150px;
+  height: 150px;
+  margin: 0 50px;
+}
+
+.content2{
+ background-image: url(always.jpg);
+ background-position: center;
+ background-size: cover;
+ border: 1px solid;
+ width: 150px;
+ height: 150px;
+ 
+
+}
+.content3{
+  background-image: url(ftft.jpg);
+ background-position: center;
+ background-size: cover;
+  border: 1px solid;
+  width: 150px;
+  height: 150px;
+ 
+
+
+}
+.content4{
+  background-image: url(tmwcbm.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid;
+  width: 150px;
+  height: 150px;
+ 
+}
+.content5{
+  background-image: url(msf.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid;
+ width: 150px;
+ height: 150px;
+ 
+}
+.content6{
+  background-image: url(olb.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid;
+  width: 150px;
+  height: 150px;
+  
+  
+}
+.opmh{
+margin: 0px 50px;
+
+}
+.contents2{
+  display: flex;
+}
+.opm1{
+  background-image: url(ikawlang.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid;
+  width: 150px;
+  height: 150px;
+  margin: 0 50px;
+  
+}
+.opm2{
+  background-image: url(with.png);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid;
+  width: 150px;
+  height: 150px;
+  
+  
+}
+.opm3{
+  background-image: url(mundo1.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid;
+  width: 150px;
+  height: 150px;
+  
+  
+}
+.opm4{
+  background-image: url(kathangisip.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid;
+  width: 150px;
+  height: 150px;
+  
+  
+}
+.opm5{
+  background-image: url(wimu.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid;
+  width: 150px;
+  height: 150px;
+  
+  
+}
+.opm6{
+  background-image: url(heaven.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid;
+  width: 150px;
+  height: 150px;
+
+  
+}
+
+.bisakol {
+
+margin: 0px 50px;
+
+}
+.contents3 {
+  display: flex;
+}
+
+.bis1{
+  background-image: url(liar.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid;
+  width: 150px;
+  height: 150px;
+  margin: 0 50px;
+  
+}
+.bis2{
+  background-image: url(gifingers.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid;
+  width: 150px;
+  height: 150px;
+  
+  
+}
+.bis3{
+  background-image: url(suroy.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid;
+  width: 150px;
+  height: 150px;
+  
+  
+}
+.bis4{
+  background-image: url(gg.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid;
+  width: 150px;
+  height: 150px;
+ 
+}
+.bis5{
+  background-image: url(sinesine.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid;
+  width: 150px;
+  height: 150px;
+ 
+  
+}
+.bis6{
+  background-image: url(sabot.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid;
+  width: 150px;
+  height: 150px;
+ 
+  
+}
+.soundtrack {
+
+  margin: 0px 50px;
+  
+  }
+  .contents4 {
+    display: flex;
+  }
+  
+  .st1{
+    background-image: url(lap.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+    margin: 0 50px;
+    
+    
+  }
+  .st2{
+    background-image: url(sddefault.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+   
+    
+  }
+  .st3{
+    background-image: url(shallow.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+    
+    
+  }
+  .st4{
+    background-image: url(eye.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+    
+  }
+  .st5{
+    background-image: url(titanic.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+    
+    
+  }
+  .st6{
+    background-image: url(lir.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+   
+    
+  }
+ .content2, .content3, .content4, .content5, .content6{
+  margin: 0 100px;
+
+  }
+ .bis2, .bis3, .bis4, .bis5, .bis6{
+  margin: 0 100px;
+ }
+.opm2, .opm3, .opm4, .opm5, .opm6{
+  margin: 0 100px;
+}
+.st2, .st3, .st4, .st5, .st6{
+  margin: 0 100px;
+}
+
+
+
