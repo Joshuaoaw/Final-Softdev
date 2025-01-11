@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="article.css">
+    <link rel="icon" type="image/x-icon" href="ctu.ico">
+    <div class="ctulogo"></div>
+   
+    <title>Cebu Technological University</title>
+</div>
+</head>
+<body>
+    <div class="navbar">
+        <img src="ctu-danao.png" width="70%" height="30%">
+        <div class="login-form">
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Enter Username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter Password" required>
+                <button type="submit">Login</button> 
+                
+                <button type="button" id="signupButton">Signup</button>
+            </form>
+            <p id="errorMessage" style="color: red; display: none;">Invalid username or password.</p>
+
+        
+        </div>
+        </div>
+        </div>
+    </div>
+    <div class="article">
+    <h4><br><br>Cebu Technological University Danao Campus: A Hub for Innovation and Excellence.<br><br></h4>
+        <p>Cebu Technological University (CTU) Danao Campus is a premier educational institution in northern Cebu, recognized for its commitment to fostering innovation, academic excellence, and community engagement Nestled in the vibrant city of Danao. The campus is home to over 4,000 students who are dedicated to lifelong learning and career development in various fields of study, particularly in engineering, technology, and education.<br><br>Below are the current programs the CTU Danao Campus offers:<br>
+        <a href="https://www.facebook.com/ctudcengineering">COLLEGE OF ENGINEERING</a>
+        <br> <a href="https://www.facebook.com/CTUDANAOCME">COLLEGE OF MANAGEMENT AND ENTREPRENEURSHIP</a>
+        <BR> <a href="https://www.facebook.com/CEASCTUDanao">COLLEGE OF EDUCATION </a>
+            <BR> <a href="https://www.facebook.com/profile.php?id=61560507485444">COLLEGE OF TECHNOLOGY</a>
+        </p>
+</div>
+
+    <div class="content">
+        
+        <div class="picture-grid">
+            <div class="picture" id="picture1">
+                <img src="engineering.jpg" alt="Picture 1">
+                <div class="description">
+                    <br>
+                    <p><i>Bachelor of Science in Industrial Engineering (BSIE)</i> <br>
+                        <I>Bachelor of Science in Mechanical Engineering (BSME)</I><br>
+                       <i>Bachelor of Science in Civil Engineering (BSCE)</i> <br>
+                       <i> Bachelor of Science in Electrical Engineering (BSEE)</i><br>
+                        <i>Bachelor of Science in Computer Engineering (BSCpE)</i></p>
+                </div>
+            </div>
+            <div class="picture" id="picture2">
+                <img src="cme.jpg" alt="Picture 2">
+                <div class="description">
+                    <br>
+                    <p><i>Bachelor of Science in Hospitality Management (BSHM)<bR>
+                        Bachelor of Science in Tourism Management (BSTM ) <br>
+                        Bachelor of Science in Business Administration - Marketing Management (BSBA-MM) </i>
+                    </p>
+                </div>
+            </div>
+            <div class="picture" id="picture3">
+                <img src="educatiopn.jpg" alt="Picture 3">
+                <div class="description">
+                    <br>
+                    <p><I>Bachelor of Elementary Education (BEEd) New <br>
+                        Bachelor in Technology and Livelihood Education (BTLEd) major in Home Economics<BR>
+                        Bachelor of Secondary Education (BSEd) majors in:
+                        Mathematics
+                        Science
+                        Social Studies <Br>
+                        Bachelor of Secondary Education (BSEd) major in Home Economics Technology (HET)<br>
+                        Diploma in Professional Education (DPE)</I>
+                    </p>
+                </div>
+            </div>
+            <div class="picture" id="picture4">
+                <img src="technology.jpeg" alt="Picture 4">
+                <div class="description">
+                    <br>
+                    <p><I>Bachelor of Industrial Technology (BIT) majors in: <br>
+                        Automotive Technology<br>
+                        Computer Technology<br>
+                        Drafting Technology<br>
+                        Electrical Technology<br>
+                        Electronics Technology<br>
+                        Power Plant Technology</I></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const validUsername = "joshua";
+        const validPassword = "gwapo123";
+       
+    
+        document.getElementById("loginForm").addEventListener("submit", function (event) {
+            event.preventDefault(); 
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+    
+            if (username === validUsername && password === validPassword) {
+                window.location.href = "artclegate.html"; 
+            } else {
+                const errorMessage = document.getElementById("errorMessage");
+                errorMessage.style.display = "block"; 
+            }
+        });
+    
+        document.getElementById("signupButton").addEventListener("click", function () {
+            window.location.href = "signup.html"; 
+        });
+    </script>
+    
+</body>
+</html>
